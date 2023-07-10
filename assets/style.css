@@ -27,10 +27,11 @@ body{
 /* -------header-style------- */
 
 .header-style{
+    background-color: #FFFFFF;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 20px 80px;
     gap: 120px;
-    padding: 20px;
     align-items: center;
 }
 .header-style img{
@@ -38,11 +39,52 @@ body{
 }
 .header-style .menubar-details .items{
   display: flex;
-  gap: 10px;
+  gap: 40px;
+}
+.header-style .items a{
+    font-size: 18px;
+    color: #272727;
+    transition: 1s;
+}
+.header-style .items a:hover{
+    color: #E55473;
+
 }
 
-
-
+.header-style .btn-wrap {
+    display: flex;
+    gap: 10px;
+}
+.btn-wrap .add-color{
+    color: #272727;
+    background-color: #FFFFFF;
+    border: 1px solid #272727;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 5px 14px;
+    transition: 1s;
+}
+.btn-wrap .add-color:hover{
+    color: #FFFFFF;
+    background-color: #E55473;
+    border: 1px solid #E55473;
+}
+.btn-wrap .menu-btn{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: #E55473;
+    border-radius: 8px;
+    padding: 5px 14px;
+    border: 1px solid #E55473;
+    transition: 1s;
+}
+.btn-wrap .menu-btn:hover{
+    color: #272727;
+    background-color: #FFFFFF;
+    border: 1px solid #272727;
+}
 
 /* -------banner-style------- */
 
@@ -159,3 +201,27 @@ body{
     gap: 24px;
     align-items: center;
 }
+
+
+/* -------footer-style------- */
+.footer-style{
+    background-color: #1E1E1E;
+    padding: 128px 0;
+    text-align: center;
+}
+.footer-style .footer-title{
+    font-size: 48px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+.footer-style .footer-paragraph{
+    margin-bottom: 32px;
+    color: #FFFFFF;
+}
+.footer-style .some-text{
+    font-size: 16px;
+    color: #707070;
+    font-weight: 400;
+
+}
+
