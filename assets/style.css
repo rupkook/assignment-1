@@ -1,0 +1,138 @@
+
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    max-width: 1920px;
+}
+.h3-font{
+    font-size: 40px;
+}
+.p-font{
+    font-size: 18px;
+    color: #7C7778;
+    font-weight: 400;
+}
+.btn-style{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: #E55473;
+    border-radius: 8px;
+}
+
+/* -------header-style------- */
+.header-style{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding: 20px;
+    align-items: center;
+}
+.header-style img{
+    width: 142px;
+}
+.header-style .menubar-details .items{
+  display: flex;
+  gap: 10px;
+}
+
+
+
+
+/* -------banner-style------- */
+
+.banner-style{
+    padding: 50px 0 0;
+    background-color: #FCEEF1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.banner-style .text-wrap .banner-title{
+    font-size: 80px;
+    color: #272727;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+.banner-style .text-wrap .banner-paragraph{
+    margin-bottom: 60px;
+}
+.banner-style a{
+    padding: 20px 43px;
+    transition: 1s;
+}
+.banner-style a:hover{
+    background-color: #FFFFFF;
+    color: #272727;
+}
+
+
+/* -------feature-style------- */
+
+
+.feature-style{
+    background-color: #FFFFFF;
+    padding: 178px 0 128px;
+}
+.feature-style .text-wrap{
+    text-align: center;
+}
+
+.feature-style .feature-title{
+    color: #272727;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.feature-style .feature-paragraph{
+    margin-bottom: 48px;
+}
+.feature-style .feature-pic-wrap{
+    display: flex;
+    justify-content: space-around;
+}
+.feature-style .add-color-1{
+    background-color: #F2DEE7;
+}
+.feature-style .add-color-2{
+    background-color: #DAEFF1;
+}
+.feature-style .add-color-3{
+    background-color: #E3ECDB;
+}
+
+
+
+/* -------sale-style------- */
+
+.sale-style{
+    display: flex;
+    gap: 187px;
+    background-color: #FCEEF1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.sale-style .sale-title{
+    color: #272727;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.sale-style .sale-paragraph{
+    margin-bottom: 48px;
+}
+
+.sale-style a{
+    padding: 20px 43px;
+    transition: 1s;
+}
+.sale-style a:hover{
+    background-color: #FFFFFF;
+    color: #272727;
+}
