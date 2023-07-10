@@ -136,7 +136,14 @@ body{
 }
 .feature-style .feature-pic-wrap{
     display: flex;
-    justify-content: space-around;
+    gap: 24px;
+    justify-content: center;
+}
+.feature-pic-wrap .featurepic{
+    height: 538px;
+    width: 464px;
+    text-align: center;
+    border-radius: 300px 300px 0 0;
 }
 .feature-style .add-color-1{
     background-color: #F2DEE7;
