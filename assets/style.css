@@ -6,6 +6,7 @@
 }
 body{
     max-width: 1920px;
+    margin: 0;
 }
 .h3-font{
     font-size: 40px;
@@ -144,6 +145,14 @@ body{
     width: 464px;
     text-align: center;
     border-radius: 300px 300px 0 0;
+    margin-bottom: 32px;
+}
+.feature-pic-wrap .pic-text-wrap .pic-title{
+    font-size: 24px;
+    color: #272727;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
 }
 .feature-style .add-color-1{
     background-color: #F2DEE7;
@@ -155,7 +164,29 @@ body{
     background-color: #E3ECDB;
 }
 
+/* -------about us-style------- */
 
+.AboutUs-style{
+    display: flex;
+    gap: 100px;
+    background-color: #F4F4F4;
+    height: 320px;
+    width: 1440px;
+    align-items: center;
+    margin-bottom: 128px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 128px;
+}
+.AboutUs-style img{
+    margin-bottom: 24px;
+}
+.AboutUs-style .pic-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #2F2F2F;
+}
 
 /* -------sale-style------- */
 
@@ -208,7 +239,6 @@ body{
     gap: 24px;
     align-items: center;
 }
-
 
 /* -------footer-style------- */
 .footer-style{
