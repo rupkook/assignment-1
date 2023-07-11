@@ -25,6 +25,13 @@ body{
     border-radius: 8px;
 }
 
+/* -------body-style------- */
+.body-style{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
 /* -------header-style------- */
 
 .header-style{
@@ -49,7 +56,6 @@ body{
 }
 .header-style .items a:hover{
     color: #E55473;
-
 }
 
 .header-style .btn-wrap {
@@ -147,12 +153,20 @@ body{
     border-radius: 300px 300px 0 0;
     margin-bottom: 32px;
 }
-.feature-pic-wrap .pic-text-wrap .pic-title{
+
+.feature-pic-wrap .pic-text-wrap .pic-link{
+    text-align: center;
+}
+.feature-pic-wrap .pic-text-wrap .pic-bottom-link{
     font-size: 24px;
     color: #272727;
     font-weight: 700;
     text-decoration: underline;
-    text-align: center;
+    justify-content: center;
+    transition: 1s;
+}
+.feature-pic-wrap .pic-text-wrap .pic-bottom-link:hover{
+    color: #E55473;
 }
 .feature-style .add-color-1{
     background-color: #F2DEE7;
@@ -239,6 +253,21 @@ body{
     gap: 24px;
     align-items: center;
 }
+.blog-style .image-holder a{
+    overflow: hidden;
+    position: relative;
+}
+
+.blog-style .image-holder a img{
+    transition: 1s;
+    transform: scale(1);
+    overflow: hidden;
+}
+
+.blog-style .image-holder a img:hover{
+    transform: scale(1.05);
+}
+
 
 /* -------subscribe-style------- */
 .Subscribe-style{
@@ -286,6 +315,7 @@ body{
     border-radius: 8px;
     border: none;
     padding: 18.29px 31px;
+    cursor: pointer;
 }
 
 /* -------footer-style------- */
