@@ -240,6 +240,54 @@ body{
     align-items: center;
 }
 
+/* -------subscribe-style------- */
+.Subscribe-style{
+    background-image: url(./images/deal-pic.jpg);
+    height: 449px;
+    width: 1440px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Subscribe-style .text-wrap{
+    text-align: center;
+}
+.text-wrap .sub-title{
+    margin-bottom: 16px;
+}
+.text-wrap .sub-paragraph{
+    margin-bottom: 48px;
+}
+
+.Subscribe-style .sub-wrap .sub-input{
+    display: flex;
+    gap: 8px;
+}
+
+.Subscribe-style .sub-wrap .email-box{
+    height: 64px;
+    width: 700px;
+    background-color: #FFFFFF;
+    color: #7D7D7D;
+    border: none;
+    border-radius: 8px;
+    padding: 0 0px 0 22px;
+}
+.Subscribe-style .sub-wrap .sub-btn{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+    padding: 18.29px 31px;
+}
+
 /* -------footer-style------- */
 .footer-style{
     background-color: #1E1E1E;
@@ -259,6 +307,5 @@ body{
     font-size: 16px;
     color: #707070;
     font-weight: 400;
-
 }
 
