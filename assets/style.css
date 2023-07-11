@@ -253,18 +253,38 @@ body{
     gap: 24px;
     align-items: center;
 }
-.blog-style .image-holder a{
-    overflow: hidden;
+.blog-style .image-holder .image-wrap{
+    position: relative;
+}
+.blog-style .ins-image-wrap{
     position: relative;
 }
 
-.blog-style .image-holder a img{
-    transition: 1s;
-    transform: scale(1);
-    overflow: hidden;
+.blog-style .ins-image-wrap .icon{
+    position: absolute;
+    top: 45%;
+    right: 46%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
 }
 
-.blog-style .image-holder a img:hover{
+.blog-style .ins-image-wrap:hover .icon{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(50%);
+    top: 50%;
+}
+.blog-style .image-wrap{
+    position: relative;
+    overflow: hidden;
+}
+.blog-style .image-wrap img{
+    transform: scale(1);
+    transition: 0.1s;
+}
+
+.blog-style .image-wrap:hover a img{
     transform: scale(1.05);
 }
 
