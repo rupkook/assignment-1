@@ -170,6 +170,7 @@ body{
     display: flex;
     gap: 100px;
     background-color: #F4F4F4;
+    border-radius: 8px;
     height: 320px;
     width: 1440px;
     align-items: center;
@@ -219,7 +220,6 @@ body{
 }
 
 /* -------blog-style------- */
-
 .blog-style{
     background-color: #FFFFFF;
     padding: 128px 0;
